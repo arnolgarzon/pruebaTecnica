@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Instrucciones para compilar y ejecutar
+1-Clona este repositorio en tu máquina local utilizando git clone https://github.com/tu-usuario/tu-repositorio.git.
+2-Abre la carpeta del proyecto en tu editor de código preferido.
+3-En la terminal, ejecuta el comando npm install para instalar las dependencias del proyecto.
+4-Ejecuta el comando npm start para compilar y ejecutar la aplicación.
+5-Abre un navegador web y navega a http://localhost:3000 para ver la aplicación en funcionamiento.
