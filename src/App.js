@@ -57,14 +57,18 @@ function App() {
   };
     
   return (
-    <div>
+    <div className='bg-black text-white'>
+      <div className='scroll-ml-0.2 '>
       <input
         type="text"
         value={searchKey}
         onChange={(e) => setSearchkey(e.target.value)}
+        className='text-black'
       />
-      <button onClick={() => fetchMovies(searchKey)}>Search</button>
-      <h1 className="text-center">{pageTitle}</h1>
+      <button clasNames="bg-sky-500 hover:bg-sky-700 ..." onClick={() => fetchMovies(searchKey)}>Search</button>      
+      </div>
+      <div className='text-center'>
+      <h1 className="text-4xl font-bold">{pageTitle}</h1>
       {Array.isArray(movies) ? (
         <ul>
         {movies.map((movie) => (
@@ -83,7 +87,9 @@ function App() {
       ) : (
         <p>No movies to show</p>
       )}
-    </div>
+      </div>
+      
+      </div>
   );
 }
 
